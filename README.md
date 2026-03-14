@@ -36,6 +36,27 @@ The system uses modern cryptographic primitives:
 | Ed25519 | Message signatures for authenticity |
 | AES‑GCM | Authenticated message encryption |
 
+Key generation 
+
+![alt text](images/image1.png)
+
+Used when the client starts 
+
+![alt text](images/image2.png)
+
+Key exchange 
+
+![alt text](images/image3.png)
+
+Stored when joined message arrives or peer_join
+
+![alt text](images/image4.png)
+
+Shared key derivation (Diffie‑Hellman)
+
+![alt text](images/image5.png)
+
+
 Simplified flow:
 
 1. Each client generates encryption and signing keys.
