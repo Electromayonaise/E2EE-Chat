@@ -60,6 +60,9 @@ Shared key derivation (Diffie‑Hellman)
 
 ![alt text](images/image5.png)
 
+Encrypt and Decrypt 
+
+![alt text](images/image7.png)
 
 Simplified flow:
 
