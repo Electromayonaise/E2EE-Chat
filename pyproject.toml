@@ -1,0 +1,22 @@
+[project]
+name = "encrypted-chat"
+version = "0.1.0"
+description = "E2EE Chat"
+readme = "README.md"
+requires-python = ">=3.11"
+dependencies = [
+    "cryptography>=46.0.5",
+    "websockets>=15.0.1",
+]
+
+[project.scripts]
+server = "server.main:main"
+client = "client.main:main"
+
+[build-system]
+requires = ["setuptools>=68", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[tool.setuptools]
+py-modules = ["crypto_utils"]
+packages = ["client", "server"]
